@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import Optional  # For Python 3.8 compatibility
+from typing import Optional  
 import mysql.connector
 from bs4 import BeautifulSoup
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
