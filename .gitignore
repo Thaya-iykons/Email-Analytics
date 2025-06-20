@@ -1,0 +1,17 @@
+# Ignore virtual environment and large libraries
+EMAIL/Lib/
+*.dll
+*.lib
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.exe
+*.zip
+*.tar
+*.whl
+*.egg-info/
+dist/
+build/
+.env
+*.env
